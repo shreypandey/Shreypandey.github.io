@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shreypandey
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - OpenNyAI/Jugalbandi-Manager
+  - shreypandey/Distribution
+  - descifrado/Sakshatkar
+  - shreypandey/Sacred-bazaar
+  - shreypandey/Secure-Quiz
+  - shreypandey/Smart_Ville

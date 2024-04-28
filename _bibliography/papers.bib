@@ -1,113 +1,36 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@INPROCEEDINGS{9565973,
+  author={Pandey, Shrey and Srivastava, Yash and Meena, Yukta and Dewang, Rupesh Kumar},
+  booktitle={2021 8th International Conference on Signal Processing and Integrated Networks (SPIN)}, 
+  title={CLOTON: A GAN based approach for Clothing Try-On}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={595-601},
+  abstract={Cloton is a framework that produces a picture of a person wearing the target clothing while taking into account arbitrary body shapes and poses. As the generation of an individual image necessitates the extraction of body shape and pose from one image and target clothing from another, the architecture is divided into a number of tasks. With these two images as input, the system generates a new picture of the user wearing the target clothing using a generative network. The output is this generated image, which is then sent back to the user. By using encoder-decoder networks as the generator model and training it using the generative adversarial approach used by GANs, Cloton manages to generate visually appealing garment swapped images of the user. Cloton also has good results in the quantitative analysis of the system as compared to previous works.},
+  keywords={Training;Shape;Statistical analysis;Clothing;Fitting;Signal processing;Generative adversarial networks},
+  doi={10.1109/SPIN52536.2021.9565973},
+  ISSN={2688-769X},
+  month={Aug},}
+
+@inproceedings{10.1145/3564121.3564799,
+author = {Patel, Dhruv and Pandey, Shrey and Sharma, Abhishek},
+title = {Efficient Vector Store System for Python using Shared Memory},
+year = {2023},
+isbn = {9781450398473},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3564121.3564799},
+doi = {10.1145/3564121.3564799},
+abstract = {Many e-commerce companies use machine learning to make customer experience better. Even within a single company, there will be generally many independent services running, each specializing in some aspect of customer experience. Since machine learning models work on abstract vectors representing users and/or items, each such service needs a way to store these vectors. A common approach nowadays is to save them in in-memory caches like Memcached. As these caches run in their own processes, and Machine Learning services generally run as Python services, there is a communication overhead involved for each request that ML service serves. One can reduce this overhead by directly storing these vectors in a Python dictionary within the service. To support concurrency and scale, a single node runs multiple instances of the same service. Thus, we also want to avoid duplicating these vectors across multiple processes. In this paper, we propose a system to store vectors in shared memory and efficiently serve all concurrent instances of the service, without replicating the vectors themselves. We achieve up to 4.5x improvements in latency compared to Memcached. Additionally, due to availability of more memory, we can increase the number of server processes running in each node, translating into greater throughput. We also discuss the impact of the proposed method (towards increasing the throughput) in live production scenario.},
+booktitle = {Proceedings of the Second International Conference on AI-ML Systems},
+articleno = {22},
+numpages = {6},
+keywords = {vector data store, shared memory, embedding data store},
+location = {Bangalore, India},
+series = {AIMLSystems '22}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}

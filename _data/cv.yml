@@ -3,37 +3,69 @@
   contents:
     - name: Full Name
       value: Shrey Pandey
+    - name: Current Role
+      value: Research Fellow at Microsoft Research
+    - name: Email
+      value: shreypandey1509@gmail.com
+    - name: Location
+      value: Bangalore, India
     - name: Date of Birth
-      value: 15th September 2000
+      value: 15 September, 2000
     - name: Languages
-      value: English, Hindi
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: English, Hindi 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Fellow
+      institution: <b><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a></b>
+      year: Jan 2024 - present
+      location: Bengaluru, India
+      maindescription: Working on Programming with Representations which is a software development approach that relies on a domain-specific language (DSL), or representation, defined by a developer specializing in a specific domain. This representation includes built-in guardrails that are automatically implemented throughout the software development process. Once a representation is defined for a domain, PwR enables any developer interested in that domain to translate their intentions using natural language into a program in that representation.
+      description:
+        - title: <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">JugalBandi - Manager</a>
+          contents:
+            - Jugalbandi (JB) Manager is a full AI-powered conversational chatbot platform. It's platform agnostic and can serve multiple channels such as WhatsApp or custom web interfaces. It can handle conversations in both text and voice across any language. It comes with Bhashini Speech models out of the box and can failover to Azure.
+            - Chatbots are internally powered by a finite state machine which uses GPT for the conversation flows.
+    - title: Senior Data Science Engineer
+      institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
+      year: Apr 2023 - Jan 2024
+      location: Bengaluru, India
+      maindescription: My roles and responsibilities included, but not limited to, design and implementation of recommendation and search engines, scaling of various machine learning components and supporting product groups to enable various features across the platform.
+      description:
+        - title: <b>NNFetch - In House Vector Database</b>
+          contents:
+            - Created a dynamic recommendation platform, enhancing product discovery by blending metadata filters and partitioning with HNSW and ANNOY indexing for lightning-fast nearest product retrieval.
+            - Empowered multiple data science projects with a pivotal recall set generator, adapting effortlessly to evolving metadata and delivering remarkable <b>throughput of 1M RPM</b> at a <b>peak P99 latency of 20ms</b>.
+            - Delivered adaptive clustering logic, optimizing recall score and latency by extending existing indexes, enabling precise adaptation to diverse business use cases with rapidly changing metadata.
+
+    - title: Data Science Engineer
+      institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
+      year: Jun 2021 - Apr 2023
+      location: Bengaluru, India
+      description:
+        - title: <b>Personalised Search Ranking</b>
+          contents: 
+            - Designed and developed a real-time, user-personalised search-ranking service, using long-term and short-term user features, query relevance, product attributes and dynamic product features in an XGBoost model optimised for CTR.
+            - Engineered a high-performance solution for millions of users and products, leveraging Aerospike data store, SIMD-based cosine similarity processing, and ONNX Runtime for XGBoost model inferencing, delivering seamless operation at <b>500K RPM</b> with a remarkable <b>P99 latency of 30ms</b>.
+            - Proven positive impact on business metrics through AB tests, enhancing user experience and relevance at scale.
+        - title: <b>Recommendation System</b>
+          contents:
+            - Engineered a versatile framework for real-time product recommendations, leveraging embedding-based features and MCDA to optimize for relevance, personalization, and real-time business metrics, and using Determinantal Point Processes (DPP) to incorporate diversity in the recommendations.
+            - Scaled the system to handle throughput of <b>5M RPM</b> with a <b>P99 latency of 40ms</b>, achieving a <b>19x latency reduction</b> and an <b>88% annual hardware cost savings</b> compared to the previous system.
+        - title: <b>Machine Learning Scaling</b>
+          contents:
+            -  Built reusable components for scaling data science models by optimizing for latency and throughput. Maintaining compatibility by python, aligning with preferences of data scientists and easy to use with minimal code changes. Proposed solutions have been adopted to improve multiple data science services at Myntra.
+            -  Engineered a memory-efficient solution, consolidating embedding vectors in shared memory to <b>reduce latency by 4.5x</b> and <b>reduce memory footprint by 6x</b>. Enhanced application throughput per node by enabling more worker processes per node.
+            -  Introduced a high-performance approach using SIMD for calculating similarity scores and re-ranking, drastically cutting computation cycles and latency. The method handles up to <b>15x more traffic</b> while improving latency.
+        - title: <b>Image Pose Detector</b>
+          contents:
+            -  Created an scalable online service for human pose detection from an image using a ResNet-18 model with custom layers. 
+            -  Able to handle <b>27x more throughput</b> with a <b>6x reduction in latency</b> from its predecessor on a single node.
+
+    - title: Software Developer
+      institution: Stealth Startup
+      year: Mar 2020 - May 2021
       description:
         - Description 1.
         - Description 2.
@@ -41,25 +73,35 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: Software Engineering Intern
+      institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
+      year: Apr 2020 - Jul 2021
+      maindescription: Designed and implemented a two-step framework for topwear product swapping in images.
       description:
-        - Description 1.
-        - Description 2.
+        - Developed an encoder-decoder-based generative model for preliminary image generation using Generative Adversarial Networks (GANs).
+        - Developed an image refinement model for processing the generated preliminary image to incorporate garment textures, ensuring accurate top-wear product replacement while retaining pose and body shape.
+        - The generated images were close to the Myntra image standards.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Technology - Computer Science and Engineering
+      institution: <b><a href="http://www.mnnit.ac.in/">Motilal Nehru National Institute Of Technology, Allahabad</a></b>
+      year: 2017 - 2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - title: Relevant Courses
+          contents:
+            - "CS 13101 - Data Structures"
+            - "CS 14101 - Analysis of Algorithms"
+            - "CS 14103 - Computer Organization"
+            - "CS 14104 - Automata Theory"
+            - "CS 15101 - Microprocessor and its application"
+            - "CS 15103 - Database Management System"
+            - "CS 15106 - Computer Architecture"
+            - "CS 16102 - Compiler Construction"
+            - "CS 16105 - Computer Networks"
+            - "CS 16103 - Data Mining"
 
 - title: Open Source Projects
   type: time_table
@@ -78,6 +120,32 @@
     - year: 2029
       items:
         - Max Planck Medal
+
+- title: Certification
+  type: map
+  contents:
+    - name: Sequence Models
+      link: http://coursera.org/verify/PXUZGCYH7C5F
+
+- title: Certification
+  type: time_table
+  contents:
+    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
+      year: 2021
+      maindescription: Deeplearning.AI
+    - title: <a href="https://www.udemy.com/certificate/UC-7edc739d-dc91-4140-abb6-73b8f351b48b/">Deep Learning and NLP</a>
+      year: 2021
+      maindescription: Udemy
+    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
+      year: 2021
+      maindescription: Deeplearning.AI
+    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
+      year: 2021
+      maindescription: Deeplearning.AI
+    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
+      year: 2021
+      maindescription: Deeplearning.AI
+    
 
 - title: Academic Interests
   type: nested_list

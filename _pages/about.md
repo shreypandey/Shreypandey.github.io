@@ -22,4 +22,4 @@ Currently, I am involved in pioneering [Programming with Representations (PwR)](
 
 In addition to my professional pursuits, I am passionate about historical and geographical studies, which provide me with a broad perspective on the world and its diverse cultures. I actively share knowledge and engage with the tech community through educational initiatives and discussions.
 
-Feel free to connect with me on LinkedIn for collaboration or to exchange ideas.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/shrey2076/) for collaboration or to exchange ideas.

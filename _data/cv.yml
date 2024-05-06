@@ -38,7 +38,6 @@
             - Created a dynamic recommendation platform, enhancing product discovery by blending metadata filters and partitioning with HNSW and ANNOY indexing for lightning-fast nearest product retrieval.
             - Empowered multiple data science projects with a pivotal recall set generator, adapting effortlessly to evolving metadata and delivering remarkable <b>throughput of 1M RPM</b> at a <b>peak P99 latency of 20ms</b>.
             - Delivered adaptive clustering logic, optimizing recall score and latency by extending existing indexes, enabling precise adaptation to diverse business use cases with rapidly changing metadata.
-
     - title: Data Science Engineer
       institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
       year: Jun 2021 - Apr 2023
@@ -62,18 +61,6 @@
           contents:
             -  Created an scalable online service for human pose detection from an image using a ResNet-18 model with custom layers. 
             -  Able to handle <b>27x more throughput</b> with a <b>6x reduction in latency</b> from its predecessor on a single node.
-
-    - title: Software Developer
-      institution: Stealth Startup
-      year: Mar 2020 - May 2021
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-
     - title: Software Engineering Intern
       institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
       year: Apr 2020 - Jul 2021
@@ -82,6 +69,13 @@
         - Developed an encoder-decoder-based generative model for preliminary image generation using Generative Adversarial Networks (GANs).
         - Developed an image refinement model for processing the generated preliminary image to incorporate garment textures, ensuring accurate top-wear product replacement while retaining pose and body shape.
         - The generated images were close to the Myntra image standards.
+    - title: Software Developer
+      institution: Stealth Startup
+      year: Mar 2020 - May 2021
+      description:
+        - Developed a music and movie recommendation system, personalised according to the preferences of multiple users in a group setting.
+        - Developed the backend API server responsible for serving recommendations, user and groups management and user preferance selection. 
+    
 
 - title: Education
   type: time_table
@@ -103,63 +97,37 @@
             - "CS 16105 - Computer Networks"
             - "CS 16103 - Data Mining"
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+- title: Publications
+- title: Projects
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Certification
-  type: map
-  contents:
-    - name: Sequence Models
-      link: http://coursera.org/verify/PXUZGCYH7C5F
-
-- title: Certification
-  type: time_table
-  contents:
-    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
-      year: 2021
-      maindescription: Deeplearning.AI
-    - title: <a href="https://www.udemy.com/certificate/UC-7edc739d-dc91-4140-abb6-73b8f351b48b/">Deep Learning and NLP</a>
-      year: 2021
-      maindescription: Udemy
-    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
-      year: 2021
-      maindescription: Deeplearning.AI
-    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
-      year: 2021
-      maindescription: Deeplearning.AI
-    - title: <a href="http://coursera.org/verify/PXUZGCYH7C5F">Sequence Models</a>
-      year: 2021
-      maindescription: Deeplearning.AI
+    - year: 2023
+      title: Best Long Paper Award - Convergence 23
+      maindescription: Recieved best long paper award in Flipkart internal Data Science conference - Convergence. 
+    - year: 2023
+      title: Annual Award 2023
+      maindescription: Recipient of the Annual Award for CY’22 at Myntra for contributions to scalability and cost optimizations in recommendation systems and search re-ranking. The award is given to one individual from the entire engineering department.
+    - year: 2022
+      title: Quarter Award JFM 2023
+      maindescription: It is awarded for taking ownership, doing all it takes and driving impactful results with agility.
+    - year: 2021
+      title: Quarter Award JAS 2023
+      maindescription: It is awarded for taking ownership, doing all it takes and driving impactful results with agility.
+    - year: 2019-2020
+      title: Won Multiple accolades in several technical competitions held at different techfests
+      description:
+        - title:
+          contents:
+            - <b>Winner Of Softablitz (2019, 2020)</b> - Softablitz is the software development event organized under the annual techno-management event Avishkar at MNNIT Allahabad
+            - <b>Winner of TuxWars (2020)</b> - TuxWars is the Linux based event organized under the annual techno-management event Avishkar at MNNIT Allahabad
+            - <b>Winner of DevJam (2019)</b> - DevJam is the software development contest organized under Weekend Of Code by Computer Club MNNIT Allahabad
+    - year: 2017
+      title: Institute Merit Scholarship
+      description: Provided by MNNIT Allahabad to top 10% of students in the batch for excellence in academics
     
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u><b>Exploration</b></u>: History, Geography, Arts"
+    - "<u><b>Hobbies:</b></u> Culinary Arts" 

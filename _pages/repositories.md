@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Repositories contributed and maintained by Shrey Pandey.
 nav: true
 nav_order: 4

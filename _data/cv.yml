@@ -6,11 +6,9 @@
     - name: Current Role
       value: Research Fellow at Microsoft Research
     - name: Email
-      value: shreypandey1509@gmail.com
+      value: <a href="mailto:shreypandey1509@gmail.com">shreypandey1509@gmail.com</a>
     - name: Location
       value: Bangalore, India
-    - name: Date of Birth
-      value: 15 September, 2000
     - name: Languages
       value: English, Hindi 
 
@@ -97,8 +95,31 @@
             - "CS 16105 - Computer Networks"
             - "CS 16103 - Data Mining"
 
-- title: Publications
 - title: Projects
+  type: time_table
+  contents:
+    - year: 2021
+      title: College Bot
+      maindescription: An automated chat application based on deep learning to answer the day-to-day basic queries of students, such as information regarding college, etc.
+    - year: 2020
+      title: <a href="https://github.com/shreypandey/Cloton">Cloton</a>
+      maindescription: A deep learning based framework to give a virtual try room experience for the users. It is built using the principle of Generative Adversarial Networks.
+    - year: 2019
+      title: <a href="https://github.com/shreypandey/Distribution">Distribution</a>
+      maindescription: Developed a distributed file-sharing platform using TCP sockets where users can log in, create profiles, and share or download content. The platform supports a dashboard for tracking shared files and download statistics. Files are stored and retrieved across multiple nodes, ensuring redundancy and parallel downloads. Advanced features include tagging for better file search, multimedia streaming, and personalized recommendations based on user history. Efficient search and ranking mechanisms enhance file discovery, while partial file sharing supports peer-to-peer downloads.
+    - year: 2019
+      title: <a href="https://github.com/shreypandey/Sakshatkar">Sakshatkar</a>
+      maindescription: Developed a social platform with video calls and voice calls implemented using UDP sockets, and instant messaging features. Users can log in, search and view profiles, initiate video and voice calls with chat functionality, and exchange files. Advanced features include call quality feedback, online status tracking, friend requests, notifications, offline messaging, chat history retention, and friend suggestions based on social connections.
+    - year: 2019
+      title: <a href="https://github.com/shreypandey/Smart_Ville">Smart Ville</a>
+      maindescription: An Interactive Android App with Google Map displaying common potholes and service running in the background to detect the potholes based on readings from Accelerometer, Gyroscope, and Magnetometer.
+    - year: 2018
+      title: <a href="https://github.com/shreypandey/Sacred-bazaar">Sacred Bazaar</a>
+      maindescription: An e-commerce platform built using Java for selling and buying products. Implemented features like shopping history, product search, offers, and transaction summaries. The admin functionality included customer/product management, billing, inventory control, and applying discounts. Advanced features comprised personalized discount schemes, customer segmentation, and graphical analysis of sales and customer transactions.
+    - year: 2018
+      title: <a href="https://github.com/Shreypandey/Secure-Quiz">Secure Quiz</a>
+      maindescription: Designed a secure quiz platform where teachers can manage subjects, host quizzes, and add solutions. Enabled randomized question order and timed sections for multiple students simultaneously. Included automatic scoring, student-teacher queries, and encrypted data transfer for secure communication. Advanced features encompass multi-format questions, rating systems, and detailed dashboards. The platform also supports encrypted offline caching to preserve student responses during connectivity issues.
+    
 - title: Honors and Awards
   type: time_table
   contents:

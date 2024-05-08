@@ -36,3 +36,21 @@ series = {AIMLSystems '22},
 bibtex_show={true}
 }
 
+@inproceedings{10.1145/3629526.3645041,
+author = {Pandey, Shrey and Das, Saikat Kumar and Ganu, Hrishikesh V. and Singh, Satyajeet},
+title = {Rethinking 'Complement' Recommendations at Scale with SIMD},
+year = {2024},
+isbn = {9798400704444},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3629526.3645041},
+doi = {10.1145/3629526.3645041},
+abstract = {Maximizing cart value by increasing the number of items in electronic carts is one of the key strategies adopted by e-commerce platforms for optimal conversion of positive user intent during an online shopping session. Recommender systems play a key-role in suggesting personalized candidate items that can be added to cart by the user. However, it is important to serve a diverse set of personalized recommendations that 'complement' user's cart content to practically increase item count in cart and also contribute towards product discovery. Borrowed from Quantum Physics, Determinantal Point Processes (DPP) are used widely in recommender systems to diversify personalized product recommendations for improved user engagement. However, vertically scaling DPP for recommendation sets, personalized with vector similarity metric like cosine similarity, to serve large scale real-time concurrent user requests is non-trivial. We propose a vectorized reformulation of cosine similarity and conditional DPP implementation to best utilize the highly improved vector computation capabilities (SIMD) of modern processors. Experimental evidence on real-world traffic shows that the proposed method can handle upto 15x more concurrent traffic while improving latency. The proposed method also uses portable SIMD constructs from Python libraries which can be easily adopted in most available SIMD supported CPUs with minimal code changes.},
+booktitle = {Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering},
+pages = {25–36},
+numpages = {12},
+keywords = {determinantal point processes, diversification, recommendations, recommender systems, simd, vectorization},
+location = {<conf-loc>, <city>London</city>, <country>United Kingdom</country>, </conf-loc>},
+series = {ICPE '24},
+bibtex_show={true}
+}

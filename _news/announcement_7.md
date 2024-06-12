@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Promoted to Senior Engineer, Data Science at Myntra.
+Promoted to Senior Data Science Engineer at [Myntra](https://en.wikipedia.org/wiki/Myntra).

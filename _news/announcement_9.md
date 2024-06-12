@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my first job as Engineer, Data Science at [Myntra](https://en.wikipedia.org/wiki/Myntra).
+Started my first job as Data Science Engineer at [Myntra](https://en.wikipedia.org/wiki/Myntra).

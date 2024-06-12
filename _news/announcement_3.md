@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a new role as Research Fellow at Microsoft Research after wonderful 2.5 years at Myntra.
+Started a new role as Research Fellow at Microsoft Research.

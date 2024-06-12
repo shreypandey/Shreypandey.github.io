@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented the work on "Large Scale Recommender Systems in Fashion E-commerce" at BAICONF 2022 hosted by DCAL@IIM-B.
+Presented the work on "Large Scale Recommender Systems in Fashion E-commerce" at [BAICONF 2022](https://www.iimb.ac.in/dcal-baiconf-2022) hosted by [Data Centre and Analytics Lab](https://dcal.iimb.ac.in/) at IIM Bangalore.

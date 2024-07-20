@@ -28,11 +28,10 @@
             - Developed a domain-specific language (DSL) that includes built-in guardrails, ensuring safety and reliability throughout the software development process. This DSL allows individuals without coding expertise to develop software effectively.
         - title: <b>Multi-Turn Conversational Information Retrieval</b>
           contents:
-           - Developed a conversational system to streamline the complex, multi-level form-filling process using LLMs to guide users by follow up questions resulting in reducing inefficiency, improving accuracy and user experience.
+           - Created a conversational system that imporves the complex, multi-level form-filling process using LLMs by asking follow-up questions, enhancing user experience with efficiency and accuracy.
         - title: <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">JugalBandi - Manager</a>
           contents:
-            - Leading the development and maintainence of the open source project, which releases and manage conversation bots built using PwR.
-            - It is responsible for providing multi tenant support, language and interaction medium agnostic conversation chatbots built on extended finite state machines. 
+            - Leading the development and maintainence of the open source project, which releases and manage conversation bots built using PwR, providing multi tenant, language and interaction medium support. 
             - Checkout JugalBandi - Manager <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">here</a>.
     - title: Senior Data Science Engineer
       institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>

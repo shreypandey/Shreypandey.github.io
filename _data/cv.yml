@@ -19,12 +19,21 @@
       institution: <b><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a></b>
       year: Jan 2024 - present
       location: Bengaluru, India
-      maindescription: Working on Programming with Representations which is a software development approach that relies on a domain-specific language (DSL), or representation, defined by a developer specializing in a specific domain. This representation includes built-in guardrails that are automatically implemented throughout the software development process. Once a representation is defined for a domain, PwR enables any developer interested in that domain to translate their intentions using natural language into a program in that representation.
+      maindescription: Working on Conversational AI and AI Assisted Programming.
       description:
+        - title: <a href="https://github.com/microsoft/PwR-NL2DSL">Programming with Representation (PwR)</a>
+          contents: 
+            - Revolutionized the interaction between developers and generative AI in coding-related tasks. This project focuses on conversational programming, enabling developers to write software using natural language instructions.
+            - It decouples the need for extensive domain and coding expertise, making software development accessible to a broader audience, including organizations and individuals without technical backgrounds. It transforms chatbot building workflows, enhancing the efficiency and effectiveness of AI-driven software development.
+            - Developed a domain-specific language (DSL) that includes built-in guardrails, ensuring safety and reliability throughout the software development process. This DSL allows individuals without coding expertise to develop software effectively.
+        - title: <b>Multi-Turn Conversational Information Retrieval</b>
+          contents:
+           - Developed a conversational system to streamline the complex, multi-level form-filling process using LLMs to guide users by follow up questions resulting in reducing inefficiency, improving accuracy and user experience.
         - title: <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">JugalBandi - Manager</a>
           contents:
-            - Jugalbandi (JB) Manager is a full AI-powered conversational chatbot platform. It's platform agnostic and can serve multiple channels such as WhatsApp or custom web interfaces. It can handle conversations in both text and voice across any language. It comes with Bhashini Speech models out of the box and can failover to Azure.
-            - Chatbots are internally powered by a finite state machine which uses GPT for the conversation flows.
+            - Leading the development and maintainence of the open source project, which releases and manage conversation bots built using PwR.
+            - It is responsible for providing multi tenant support, language and interaction medium agnostic conversation chatbots built on extended finite state machines. 
+            - Checkout JugalBandi - Manager <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">here</a>.
     - title: Senior Data Science Engineer
       institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
       year: Apr 2023 - Jan 2024

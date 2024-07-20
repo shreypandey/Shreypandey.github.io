@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a new role as Research Fellow at Microsoft Research.
+Started a new role as Research Fellow at Microsoft Research. Working on Conversational AI and AI Assisted Programming. [Know more](https://shreypandey.github.io/cv/).

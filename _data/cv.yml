@@ -23,9 +23,8 @@
       description:
         - title: <a href="https://github.com/microsoft/PwR-NL2DSL">Programming with Representation (PwR)</a>
           contents: 
-            - Revolutionized the interaction between developers and generative AI in coding-related tasks. This project focuses on conversational programming, enabling developers to write software using natural language instructions.
-            - It decouples the need for extensive domain and coding expertise, making software development accessible to a broader audience, including organizations and individuals without technical backgrounds. It transforms chatbot building workflows, enhancing the efficiency and effectiveness of AI-driven software development.
-            - Developed a domain-specific language (DSL) that includes built-in guardrails, ensuring safety and reliability throughout the software development process. This DSL allows individuals without coding expertise to develop software effectively.
+            - This project focuses on conversational programming, enabling developers to write software using natural language instructions, decoupling the need for extensive domain and coding expertise, making software development accessible to a broader audience, including organizations and individuals without technical backgrounds. 
+            - Developed a domain-specific language (DSL) with integrated safeguards to guarantee safety and dependability during the software development phase. This DSL enables people who are not skilled in coding to create software efficiently.
         - title: <b>Multi-Turn Conversational Information Retrieval</b>
           contents:
            - Created a conversational system that imporves the complex, multi-level form-filling process using LLMs by asking follow-up questions, enhancing user experience with efficiency and accuracy.

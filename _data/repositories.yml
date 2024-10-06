@@ -3,8 +3,8 @@ github_users:
 
 github_repos:
   - OpenNyAI/Jugalbandi-Manager
-  - shreypandey/Distribution
+  - microsoft/PwR-Studio
+  - OpenNyAI/Jugalbandi-Studio-Engine
+  - microsoft/PwR-NL2DSL
+  - suraj-goel/Distribution
   - descifrado/Sakshatkar
-  - shreypandey/Sacred-bazaar
-  - shreypandey/Secure-Quiz
-  - shreypandey/Smart_Ville

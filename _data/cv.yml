@@ -21,17 +21,25 @@
       location: Bengaluru, India
       maindescription: Working on Conversational AI and AI Assisted Programming.
       description:
-        - title: <a href="https://github.com/microsoft/PwR-NL2DSL">Programming with Representation (PwR)</a>
+        - title: <b>CoPilot Agents</b>
+          contents:
+            - Leading the development of LLM-powered agents aimed at eliminating technical debt in large-scale codebases by automating software development tasks.
+            - Designing and implementing a dynamic AgentBuilder framework that generates agents based on customizable recipes, facilitating scalable automation of routine and complex coding operations.
+        - title: <a href="https://github.com/microsoft/PwR-NL2DSL"><b>Programming with Representation (PwR)</b></a>
           contents: 
             - This project focuses on conversational programming, enabling developers to write software using natural language instructions, decoupling the need for extensive domain and coding expertise, making software development accessible to a broader audience, including organizations and individuals without technical backgrounds. 
-            - Developed a domain-specific language (DSL) with integrated safeguards to guarantee safety and dependability during the software development phase. This DSL enables people who are not skilled in coding to create software efficiently.
+            - Developed a system of conversational programming where natural language conversations are translated into a custom domain-specific language with built-in guardrails using LLMs, allowing users to build software easily.
+            - The DSL is then translated into Python code to run on JugalBandi-Manager, enabling seamless execution of user instructions.
+            - Checkout <a href="https://github.com/microsoft/PwR-Studio">PwR-Studio</a> and <a href="https://github.com/microsoft/PwR-NL2DSL">PwR-NL2DSL</a>.
+        - title: <a href="https://github.com/OpenNyAI/Jugalbandi-Manager"><b>JugalBandi - Manager</b></a>
+          contents:
+            - Leading the development and maintainence of the open source project - JB Manager, which aims to release and manage conversation bots built using PwR for non-profit usecases.
+            - JB Manager is responsible for providing multi tenant support, language and interaction medium agnostic conversation flow chatbots using finite state machines.
+            - Checkout JugalBandi - Manager <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">here</a>.
         - title: <b>Multi-Turn Conversational Information Retrieval</b>
           contents:
-           - Created a conversational system that imporves the complex, multi-level form-filling process using LLMs by asking follow-up questions, enhancing user experience with efficiency and accuracy.
-        - title: <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">JugalBandi - Manager</a>
-          contents:
-            - Leading the development and maintainence of the open source project, which releases and manage conversation bots built using PwR, providing multi tenant, language and interaction medium support. 
-            - Checkout JugalBandi - Manager <a href="https://github.com/OpenNyAI/Jugalbandi-Manager">here</a>.
+           - Developed a conversational system to streamline the form-filling process using LLMs resulting in reducing inefficiency and user experience.
+           - The system dynamically guides users through follow-up questions, automatically selecting and filling the correct form from a pool of 15,000 options, significantly reducing manual effort.
     - title: Senior Data Science Engineer
       institution: <b><a href="https://en.wikipedia.org/wiki/Myntra">Myntra</a></b>
       year: Apr 2023 - Jan 2024
